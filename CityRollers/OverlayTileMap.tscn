@@ -1,0 +1,45 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Sprites/overlay/cityTiles_013.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/overlay/cityTiles_018.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/overlay/cityTiles_019.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/overlay/cityTiles_025.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/overlay/cityTiles_026.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/overlay/cityTiles_033.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/overlay/cityTiles_074_flat.png" type="Texture" id=7]
+
+[node name="TileMap" type="TileMap"]
+format = 1
+
+[node name="cityTiles_013" type="Sprite" parent="."]
+position = Vector2( 82.859, 180.138 )
+texture = ExtResource( 1 )
+offset = Vector2( 0, -32 )
+
+[node name="cityTiles_018" type="Sprite" parent="."]
+position = Vector2( 82.859, 180.138 )
+texture = ExtResource( 2 )
+offset = Vector2( 0, -32 )
+
+[node name="cityTiles_019" type="Sprite" parent="."]
+position = Vector2( 82.859, 180.138 )
+texture = ExtResource( 3 )
+
+[node name="cityTiles_025" type="Sprite" parent="."]
+position = Vector2( 82.859, 180.138 )
+texture = ExtResource( 4 )
+
+[node name="cityTiles_026" type="Sprite" parent="."]
+position = Vector2( 82.859, 180.138 )
+texture = ExtResource( 5 )
+offset = Vector2( 0, -32 )
+
+[node name="cityTiles_033" type="Sprite" parent="."]
+position = Vector2( 82.859, 180.138 )
+texture = ExtResource( 6 )
+offset = Vector2( 0, -32 )
+
+[node name="cityTiles_074_flat" type="Sprite" parent="."]
+position = Vector2( 179.891, 225.713 )
+texture = ExtResource( 7 )
+
